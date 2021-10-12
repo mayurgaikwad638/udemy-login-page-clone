@@ -114,12 +114,12 @@ main .top-section {
 .email, .password  {
     border: 1px solid black;
 }
-.email svg {
+/* .email svg {
     position: absolute;
-}
-.password svg {
+} */
+/* .password svg {
     position: absolute;
-}
+} */
 i {
     position: absolute;
 }
