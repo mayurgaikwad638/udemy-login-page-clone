@@ -110,9 +110,14 @@ main .top-section {
     height: 46px;
     font-size: 18px;
     border: none;
+    /* padding: 5px;   */
+}
+.box input:focus, textarea:focus, select:focus {
+    outline: none;
 }
 .email, .password  {
     border: 1px solid black;
+    /* position: relative; */
 }
 /* .email svg {
     position: absolute;
