@@ -12,6 +12,7 @@ body {
     height: 65px;
     border: 1px solid white;
     box-shadow: 10px 0px 10px  rgb(212, 210, 210);
+    /* cursor: pointer; */
 }
 nav input {
     width: 650px;
@@ -35,6 +36,7 @@ nav .btnl {
     background-color: white;
     color: black;
     font-weight: bold;
+    cursor: pointer;
 
 }
 nav .btns {
@@ -47,6 +49,7 @@ nav .btns {
     color: white;
     font-weight: bold;
     margin-right: 20px;
+    cursor: pointer;
 }
 main .line {
     font-weight: 700;
