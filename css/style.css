@@ -156,6 +156,27 @@ i {
 span {
     cursor: pointer;
 }
+@media screen and (max-width:1090px){
+    nav input {
+        width:400px ;
+    }
+    nav p {
+        display: none;
+    }
+}
+@media screen and (max-width:750px){
+    nav input {
+        width: 300px;
+    }
+    nav p {
+        display: none;
+    }
+}
+@media screen and (max-width:614px){
+    nav .btn {
+        display: none;
+    }
+}
 @media screen and (max-width: 480px)  {
     nav p, .btn, .searchbar {
         display: none;
