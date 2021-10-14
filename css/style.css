@@ -23,6 +23,9 @@ nav input {
 .searchbar {
     display: flex;
 }
+.search{
+    display: none;
+}
 .searchbar svg {
     position: absolute;
     padding-top: 13px;
@@ -152,6 +155,21 @@ i {
 }
 span {
     cursor: pointer;
+}
+@media screen and (max-width: 1279px)  {
+    nav p, .btn, .searchbar {
+        display: none;
+    }
+    .search {
+        display: inline-flex;
+    }
+    .nav {
+        justify-content: space-around;
+    }
+    .search {
+        justify-self: right;
+    }
+     
 }
 
 
