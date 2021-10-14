@@ -156,7 +156,7 @@ i {
 span {
     cursor: pointer;
 }
-@media screen and (max-width: 1279px)  {
+@media screen and (max-width: 480px)  {
     nav p, .btn, .searchbar {
         display: none;
     }
